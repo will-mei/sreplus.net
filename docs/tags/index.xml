@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 梅炜 个人博客</title>
+    <link>https://www.iterdaily.com/tags/</link>
+    <description>Recent content in Tags on 梅炜 个人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.iterdaily.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>jenkins</title>
+      <link>https://www.iterdaily.com/tags/jenkins/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.iterdaily.com/tags/jenkins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>django</title>
+      <link>https://www.iterdaily.com/tags/django/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.iterdaily.com/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>https://www.iterdaily.com/tags/shell/</link>
+      <pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.iterdaily.com/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ansible</title>
+      <link>https://www.iterdaily.com/tags/ansible/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.iterdaily.com/tags/ansible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ceph</title>
+      <link>https://www.iterdaily.com/tags/ceph/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.iterdaily.com/tags/ceph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>container</title>
+      <link>https://www.iterdaily.com/tags/container/</link>
+      <pubDate>Fri, 19 Jul 2019 21:01:20 +0100</pubDate>
+      
+      <guid>https://www.iterdaily.com/tags/container/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k8s</title>
+      <link>https://www.iterdaily.com/tags/k8s/</link>
+      <pubDate>Fri, 19 Jul 2019 21:01:20 +0100</pubDate>
+      
+      <guid>https://www.iterdaily.com/tags/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vue</title>
+      <link>https://www.iterdaily.com/tags/vue/</link>
+      <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.iterdaily.com/tags/vue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://www.iterdaily.com/tags/markdown/</link>
+      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
+      
+      <guid>https://www.iterdaily.com/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frp</title>
+      <link>https://www.iterdaily.com/tags/frp/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.iterdaily.com/tags/frp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nginx</title>
+      <link>https://www.iterdaily.com/tags/nginx/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.iterdaily.com/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://www.iterdaily.com/tags/hugo/</link>
+      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.iterdaily.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://www.iterdaily.com/tags/linux/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.iterdaily.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shortcodes</title>
+      <link>https://www.iterdaily.com/tags/shortcodes/</link>
+      <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://www.iterdaily.com/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

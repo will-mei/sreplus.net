@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docs on 梅炜 个人博客</title>
+    <link>https://www.iterdaily.com/categories/docs/</link>
+    <description>Recent content in docs on 梅炜 个人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 04 Mar 2019 16:01:23 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.iterdaily.com/categories/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MarkDown 快速上手</title>
+      <link>https://www.iterdaily.com/post/markdown-preview/</link>
+      <pubDate>Tue, 01 Jan 2019 16:01:23 +0800</pubDate>
+      
+      <guid>https://www.iterdaily.com/post/markdown-preview/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; 是由 &lt;a href=&#34;http://daringfireball.net/&#34;&gt;Daring Fireball&lt;/a&gt; 发明的, 原版的语法指导在 &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;这里&lt;/a&gt;. 不过其语法在不同的编辑器和实现中其实是有很多差异的.&lt;/p&gt;
+&lt;p&gt;要了解一下 markdown 代码中的 HTML 标识可以被识别但是不被解析或再次渲染. 还有, markdown 代码在保存后会有一部分被重新格式化.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown 数学公式 Preview</title>
+      <link>https://www.iterdaily.com/post/markdown-math-preview/</link>
+      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
+      
+      <guid>https://www.iterdaily.com/post/markdown-math-preview/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.intmath.com/cg5/katex-mathjax-comparison.php&#34;&gt;KaTeX and MathJax Comparison Demo, currently processed as KaTex&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

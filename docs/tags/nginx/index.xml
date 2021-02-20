@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nginx on 梅炜 个人博客</title>
+    <link>https://www.iterdaily.com/tags/nginx/</link>
+    <description>Recent content in nginx on 梅炜 个人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 02 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.iterdaily.com/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nginx &#43; frp 部署和配置 web 服务的内网穿透</title>
+      <link>https://www.iterdaily.com/post/hugo_nginx_proxy_setup/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.iterdaily.com/post/hugo_nginx_proxy_setup/</guid>
+      <description>内网穿透介绍 通常除了公司干活的企业服务器环境, 很多人都会在自己的闲置电脑或者老机器上搭建很多有意思的实验性服务练练手, 但是因为网络原因也只能</description>
+    </item>
+    
+  </channel>
+</rss>

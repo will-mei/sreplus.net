@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devops on 梅炜 个人博客</title>
+    <link>https://www.iterdaily.com/categories/devops/</link>
+    <description>Recent content in devops on 梅炜 个人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.iterdaily.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jenkins 流水线书写规范建议</title>
+      <link>https://www.iterdaily.com/post/jenkins-pipline-script-flavor/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.iterdaily.com/post/jenkins-pipline-script-flavor/</guid>
+      <description>Jenkins 流水线书写规范 Jenkins 流水线本身编码可以在 Jenkins 框架本身定义的 DSL内进行, 但不管是 声明式 还是 脚本式 流水线仅仅依靠 jenkins 提供的语法只能搭建起一个基本的运</description>
+    </item>
+    
+  </channel>
+</rss>
