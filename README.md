@@ -1,3 +1,7 @@
+## github page site
+
+www.sreplus.net / will-mei.github.io
+
 ## Welcome to Iterdaily.com GitHub Pages
 
 these pages were build with hugo
