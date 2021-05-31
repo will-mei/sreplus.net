@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://sreplus.net/08_K8S_Practice/</loc>
+    <lastmod>2021-05-31T02:56:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sreplus.net/08_K8S_Practice/example/</loc>
+    <lastmod>2021-05-31T02:56:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sreplus.net/</loc>
+    <lastmod>2021-05-31T02:56:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sreplus.net/06_Automation_sys_Dev/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sreplus.net/06_Automation_sys_Dev/%E7%A4%BA%E4%BE%8B/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sreplus.net/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sreplus.net/tags/</loc>
+  </url>
+  
+</urlset>
