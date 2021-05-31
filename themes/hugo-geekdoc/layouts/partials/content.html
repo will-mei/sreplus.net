@@ -1,0 +1,11 @@
+{{ .Content | replaceRE `<nav id="TableOfContents">\s*<ul>\s*<li>\s*<ul>` `<nav id="TableOfContents"><ul>` | replaceRE `</ul>\s*</li>\s*</ul>\s*</nav>` `</ul></nav>` | safeHTML }}
+
+ <script src="https://cdn.jsdelivr.net/npm/mermaid@8.8.4/dist/mermaid.min.js" integrity="sha256-/+BzMP7spK5kZq/eJyTUBpewugOb45C/VbvZkziFAB4=" crossorigin="anonymous"></script>
+ <script>
+    window.onload = function () {
+    <!-- mermaid.initialize({ theme: "dark"   }) -->
+        mermaid.initialize({ theme: "base"   })
+        mermaid.init(undefined, ".language-mermaid");
+    };
+ </script>
+
