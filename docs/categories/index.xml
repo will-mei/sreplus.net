@@ -1,78 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 梅炜 个人博客</title>
-    <link>https://www.iterdaily.com/categories/</link>
-    <description>Recent content in Categories on 梅炜 个人博客</description>
+    <title>Categories on SRE&#43;</title>
+    <link>https://www.sreplus.net/categories/</link>
+    <description>Recent content in Categories on SRE&#43;</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
     
-	<atom:link href="https://www.iterdaily.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sreplus.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>devops</title>
-      <link>https://www.iterdaily.com/categories/devops/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.iterdaily.com/categories/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
-      <link>https://www.iterdaily.com/categories/web/</link>
-      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.iterdaily.com/categories/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://www.iterdaily.com/categories/linux/</link>
-      <pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.iterdaily.com/categories/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ceph</title>
-      <link>https://www.iterdaily.com/categories/ceph/</link>
-      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.iterdaily.com/categories/ceph/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud</title>
-      <link>https://www.iterdaily.com/categories/cloud/</link>
-      <pubDate>Fri, 19 Jul 2019 21:01:20 +0100</pubDate>
-      
-      <guid>https://www.iterdaily.com/categories/cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docs</title>
-      <link>https://www.iterdaily.com/categories/docs/</link>
-      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
-      
-      <guid>https://www.iterdaily.com/categories/docs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://www.iterdaily.com/categories/hugo/</link>
-      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.iterdaily.com/categories/hugo/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

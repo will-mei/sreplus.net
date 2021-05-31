@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dir1 on My geekdoc Hugo Site</title>
+    <link>http://example.geekdaily.club/dir1/</link>
+    <description>Recent content in Dir1 on My geekdoc Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 May 2021 02:56:04 -0400</lastBuildDate>
+    
+	<atom:link href="http://example.geekdaily.club/dir1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>example article</title>
+      <link>http://example.geekdaily.club/dir1/example/</link>
+      <pubDate>Mon, 31 May 2021 02:56:04 -0400</pubDate>
+      
+      <guid>http://example.geekdaily.club/dir1/example/</guid>
+      <description>title example
+graph TD A --&amp;gt; B </description>
+    </item>
+    
+  </channel>
+</rss>

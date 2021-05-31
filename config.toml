@@ -1,6 +1,6 @@
-baseURL = "http://example.geekdaily.club/"
+baseURL = "https://www.sreplus.net/"
 languageCode = "en-us"
-title = "My geekdoc Hugo Site"
+title = "SRE+"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false

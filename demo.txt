@@ -1,0 +1,11 @@
+# internal test
+hugo server --baseURL=https://blog.iterdaily.com --port=1314 --appendPort=false --liveReloadPort=443 -D
+
+# update content 
+
+hugo
+
+# /usr/bin/cp -r ./public/* doc/
+
+rm docs
+mv public docs
