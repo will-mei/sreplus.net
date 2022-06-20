@@ -6,28 +6,84 @@
     <description>Recent content on SRE&#43;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 May 2021 02:56:04 -0400</lastBuildDate>
-    
-	<atom:link href="https://www.sreplus.net/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 31 May 2021 02:56:04 -0400</lastBuildDate><atom:link href="https://www.sreplus.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>example article</title>
-      <link>https://www.sreplus.net/08_K8S_Practice/example/</link>
+      <link>https://www.sreplus.net/04_Kubernetes/example/</link>
       <pubDate>Mon, 31 May 2021 02:56:04 -0400</pubDate>
       
-      <guid>https://www.sreplus.net/08_K8S_Practice/example/</guid>
-      <description>title example
+      <guid>https://www.sreplus.net/04_Kubernetes/example/</guid>
+      <description>title    example
 graph TD A --&amp;gt; B </description>
     </item>
     
     <item>
       <title>示例</title>
-      <link>https://www.sreplus.net/06_Automation_sys_Dev/%E7%A4%BA%E4%BE%8B/</link>
+      <link>https://www.sreplus.net/01_ShellScript/%E7%A4%BA%E4%BE%8B/</link>
       <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
       
-      <guid>https://www.sreplus.net/06_Automation_sys_Dev/%E7%A4%BA%E4%BE%8B/</guid>
-      <description>example post first post
+      <guid>https://www.sreplus.net/01_ShellScript/%E7%A4%BA%E4%BE%8B/</guid>
+      <description>example post    first post
+graph TD A --&amp;gt;B </description>
+    </item>
+    
+    <item>
+      <title>示例</title>
+      <link>https://www.sreplus.net/02_Python/%E7%A4%BA%E4%BE%8B/</link>
+      <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
+      
+      <guid>https://www.sreplus.net/02_Python/%E7%A4%BA%E4%BE%8B/</guid>
+      <description>example post    first post
+graph TD A --&amp;gt;B </description>
+    </item>
+    
+    <item>
+      <title>示例</title>
+      <link>https://www.sreplus.net/03_GoLang/%E7%A4%BA%E4%BE%8B/</link>
+      <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
+      
+      <guid>https://www.sreplus.net/03_GoLang/%E7%A4%BA%E4%BE%8B/</guid>
+      <description>example post    first post
+graph TD A --&amp;gt;B </description>
+    </item>
+    
+    <item>
+      <title>示例</title>
+      <link>https://www.sreplus.net/05_Monitoring/01_InfraMonitoring/%E7%A4%BA%E4%BE%8B/</link>
+      <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
+      
+      <guid>https://www.sreplus.net/05_Monitoring/01_InfraMonitoring/%E7%A4%BA%E4%BE%8B/</guid>
+      <description>example post    first post
+graph TD A --&amp;gt;B </description>
+    </item>
+    
+    <item>
+      <title>示例</title>
+      <link>https://www.sreplus.net/05_Monitoring/01_SysMonitoring/%E7%A4%BA%E4%BE%8B/</link>
+      <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
+      
+      <guid>https://www.sreplus.net/05_Monitoring/01_SysMonitoring/%E7%A4%BA%E4%BE%8B/</guid>
+      <description>example post    first post
+graph TD A --&amp;gt;B </description>
+    </item>
+    
+    <item>
+      <title>示例</title>
+      <link>https://www.sreplus.net/05_Monitoring/%E7%A4%BA%E4%BE%8B/</link>
+      <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
+      
+      <guid>https://www.sreplus.net/05_Monitoring/%E7%A4%BA%E4%BE%8B/</guid>
+      <description>example post    first post
+graph TD A --&amp;gt;B </description>
+    </item>
+    
+    <item>
+      <title>示例</title>
+      <link>https://www.sreplus.net/06_APM/%E7%A4%BA%E4%BE%8B/</link>
+      <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
+      
+      <guid>https://www.sreplus.net/06_APM/%E7%A4%BA%E4%BE%8B/</guid>
+      <description>example post    first post
 graph TD A --&amp;gt;B </description>
     </item>
     

@@ -1,38 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://www.sreplus.net/08_K8S_Practice/</loc>
+    <loc>https://www.sreplus.net/04_kubernetes/</loc>
     <lastmod>2021-05-31T02:56:04-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.sreplus.net/08_K8S_Practice/example/</loc>
+  </url><url>
+    <loc>https://www.sreplus.net/04_Kubernetes/example/</loc>
     <lastmod>2021-05-31T02:56:04-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.sreplus.net/</loc>
     <lastmod>2021-05-31T02:56:04-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.sreplus.net/06_Automation_sys_Dev/</loc>
+  </url><url>
+    <loc>https://www.sreplus.net/01_shellscript/</loc>
     <lastmod>2021-05-31T02:51:07-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.sreplus.net/06_Automation_sys_Dev/%E7%A4%BA%E4%BE%8B/</loc>
+  </url><url>
+    <loc>https://www.sreplus.net/02_python/</loc>
     <lastmod>2021-05-31T02:51:07-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.sreplus.net/03_golang/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/05_monitoring/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/06_apm/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/01_ShellScript/%E7%A4%BA%E4%BE%8B/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/02_Python/%E7%A4%BA%E4%BE%8B/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/03_GoLang/%E7%A4%BA%E4%BE%8B/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/05_Monitoring/01_InfraMonitoring/%E7%A4%BA%E4%BE%8B/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/05_Monitoring/01_SysMonitoring/%E7%A4%BA%E4%BE%8B/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/05_Monitoring/%E7%A4%BA%E4%BE%8B/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/06_APM/%E7%A4%BA%E4%BE%8B/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
     <loc>https://www.sreplus.net/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.sreplus.net/tags/</loc>
   </url>
-  
 </urlset>
