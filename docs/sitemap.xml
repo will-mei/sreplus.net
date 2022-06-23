@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.sreplus.net/04_kubernetes/</loc>
+    <loc>https://www.sreplus.net/04_Kubernetes/</loc>
     <lastmod>2021-05-31T02:56:04-04:00</lastmod>
   </url><url>
     <loc>https://www.sreplus.net/04_Kubernetes/example/</loc>
@@ -11,40 +11,70 @@
     <loc>https://www.sreplus.net/</loc>
     <lastmod>2021-05-31T02:56:04-04:00</lastmod>
   </url><url>
-    <loc>https://www.sreplus.net/01_shellscript/</loc>
+    <loc>https://www.sreplus.net/01_ShellScript/01_quick_install/</loc>
     <lastmod>2021-05-31T02:51:07-04:00</lastmod>
   </url><url>
-    <loc>https://www.sreplus.net/02_python/</loc>
+    <loc>https://www.sreplus.net/02_Python/01_quick_install/</loc>
     <lastmod>2021-05-31T02:51:07-04:00</lastmod>
   </url><url>
-    <loc>https://www.sreplus.net/03_golang/</loc>
+    <loc>https://www.sreplus.net/03_GoLang/01_quick_install/</loc>
     <lastmod>2021-05-31T02:51:07-04:00</lastmod>
   </url><url>
-    <loc>https://www.sreplus.net/05_monitoring/</loc>
+    <loc>https://www.sreplus.net/05_Monitoring/01_SysMonitoring/</loc>
     <lastmod>2021-05-31T02:51:07-04:00</lastmod>
   </url><url>
-    <loc>https://www.sreplus.net/06_apm/</loc>
+    <loc>https://www.sreplus.net/05_Monitoring/02_InfraMonitoring/</loc>
     <lastmod>2021-05-31T02:51:07-04:00</lastmod>
   </url><url>
-    <loc>https://www.sreplus.net/01_ShellScript/%E7%A4%BA%E4%BE%8B/</loc>
+    <loc>https://www.sreplus.net/06_APM/01_skywalking/</loc>
     <lastmod>2021-05-31T02:51:07-04:00</lastmod>
   </url><url>
-    <loc>https://www.sreplus.net/02_Python/%E7%A4%BA%E4%BE%8B/</loc>
+    <loc>https://www.sreplus.net/01_ShellScript/01_quick_install/00_intro/</loc>
     <lastmod>2021-05-31T02:51:07-04:00</lastmod>
   </url><url>
-    <loc>https://www.sreplus.net/03_GoLang/%E7%A4%BA%E4%BE%8B/</loc>
+    <loc>https://www.sreplus.net/02_Python/01_quick_install/00_intro/</loc>
     <lastmod>2021-05-31T02:51:07-04:00</lastmod>
   </url><url>
-    <loc>https://www.sreplus.net/05_Monitoring/01_InfraMonitoring/%E7%A4%BA%E4%BE%8B/</loc>
+    <loc>https://www.sreplus.net/03_GoLang/01_quick_install/00_intro/</loc>
     <lastmod>2021-05-31T02:51:07-04:00</lastmod>
   </url><url>
-    <loc>https://www.sreplus.net/05_Monitoring/01_SysMonitoring/%E7%A4%BA%E4%BE%8B/</loc>
+    <loc>https://www.sreplus.net/05_Monitoring/01_SysMonitoring/00_intro/</loc>
     <lastmod>2021-05-31T02:51:07-04:00</lastmod>
   </url><url>
-    <loc>https://www.sreplus.net/05_Monitoring/%E7%A4%BA%E4%BE%8B/</loc>
+    <loc>https://www.sreplus.net/06_APM/01_skywalking/00_intro/</loc>
     <lastmod>2021-05-31T02:51:07-04:00</lastmod>
   </url><url>
-    <loc>https://www.sreplus.net/06_APM/%E7%A4%BA%E4%BE%8B/</loc>
+    <loc>https://www.sreplus.net/01_ShellScript/01_quick_install/01_sample/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/02_Python/01_quick_install/01_sample/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/03_GoLang/01_quick_install/01_sample/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/05_Monitoring/01_SysMonitoring/01_sample/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/05_Monitoring/02_InfraMonitoring/01_sample/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/06_APM/01_skywalking/01_sample/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/01_ShellScript/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/02_Python/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/03_GoLang/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/05_Monitoring/</loc>
+    <lastmod>2021-05-31T02:51:07-04:00</lastmod>
+  </url><url>
+    <loc>https://www.sreplus.net/06_APM/</loc>
     <lastmod>2021-05-31T02:51:07-04:00</lastmod>
   </url><url>
     <loc>https://www.sreplus.net/categories/</loc>

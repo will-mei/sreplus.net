@@ -18,71 +18,111 @@ graph TD A --&amp;gt; B </description>
     </item>
     
     <item>
-      <title>示例</title>
-      <link>https://www.sreplus.net/01_ShellScript/%E7%A4%BA%E4%BE%8B/</link>
+      <title>00 intro</title>
+      <link>https://www.sreplus.net/01_ShellScript/01_quick_install/00_intro/</link>
       <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
       
-      <guid>https://www.sreplus.net/01_ShellScript/%E7%A4%BA%E4%BE%8B/</guid>
+      <guid>https://www.sreplus.net/01_ShellScript/01_quick_install/00_intro/</guid>
       <description>example post    first post
 graph TD A --&amp;gt;B </description>
     </item>
     
     <item>
-      <title>示例</title>
-      <link>https://www.sreplus.net/02_Python/%E7%A4%BA%E4%BE%8B/</link>
+      <title>00 intro</title>
+      <link>https://www.sreplus.net/02_Python/01_quick_install/00_intro/</link>
       <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
       
-      <guid>https://www.sreplus.net/02_Python/%E7%A4%BA%E4%BE%8B/</guid>
+      <guid>https://www.sreplus.net/02_Python/01_quick_install/00_intro/</guid>
       <description>example post    first post
 graph TD A --&amp;gt;B </description>
     </item>
     
     <item>
-      <title>示例</title>
-      <link>https://www.sreplus.net/03_GoLang/%E7%A4%BA%E4%BE%8B/</link>
+      <title>00 intro</title>
+      <link>https://www.sreplus.net/03_GoLang/01_quick_install/00_intro/</link>
       <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
       
-      <guid>https://www.sreplus.net/03_GoLang/%E7%A4%BA%E4%BE%8B/</guid>
+      <guid>https://www.sreplus.net/03_GoLang/01_quick_install/00_intro/</guid>
       <description>example post    first post
 graph TD A --&amp;gt;B </description>
     </item>
     
     <item>
-      <title>示例</title>
-      <link>https://www.sreplus.net/05_Monitoring/01_InfraMonitoring/%E7%A4%BA%E4%BE%8B/</link>
+      <title>00 intro</title>
+      <link>https://www.sreplus.net/05_Monitoring/01_SysMonitoring/00_intro/</link>
       <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
       
-      <guid>https://www.sreplus.net/05_Monitoring/01_InfraMonitoring/%E7%A4%BA%E4%BE%8B/</guid>
+      <guid>https://www.sreplus.net/05_Monitoring/01_SysMonitoring/00_intro/</guid>
       <description>example post    first post
 graph TD A --&amp;gt;B </description>
     </item>
     
     <item>
-      <title>示例</title>
-      <link>https://www.sreplus.net/05_Monitoring/01_SysMonitoring/%E7%A4%BA%E4%BE%8B/</link>
+      <title>00 intro</title>
+      <link>https://www.sreplus.net/06_APM/01_skywalking/00_intro/</link>
       <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
       
-      <guid>https://www.sreplus.net/05_Monitoring/01_SysMonitoring/%E7%A4%BA%E4%BE%8B/</guid>
+      <guid>https://www.sreplus.net/06_APM/01_skywalking/00_intro/</guid>
       <description>example post    first post
 graph TD A --&amp;gt;B </description>
     </item>
     
     <item>
-      <title>示例</title>
-      <link>https://www.sreplus.net/05_Monitoring/%E7%A4%BA%E4%BE%8B/</link>
+      <title>01 示例</title>
+      <link>https://www.sreplus.net/01_ShellScript/01_quick_install/01_sample/</link>
       <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
       
-      <guid>https://www.sreplus.net/05_Monitoring/%E7%A4%BA%E4%BE%8B/</guid>
+      <guid>https://www.sreplus.net/01_ShellScript/01_quick_install/01_sample/</guid>
       <description>example post    first post
 graph TD A --&amp;gt;B </description>
     </item>
     
     <item>
-      <title>示例</title>
-      <link>https://www.sreplus.net/06_APM/%E7%A4%BA%E4%BE%8B/</link>
+      <title>01 示例</title>
+      <link>https://www.sreplus.net/02_Python/01_quick_install/01_sample/</link>
       <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
       
-      <guid>https://www.sreplus.net/06_APM/%E7%A4%BA%E4%BE%8B/</guid>
+      <guid>https://www.sreplus.net/02_Python/01_quick_install/01_sample/</guid>
+      <description>example post    first post
+graph TD A --&amp;gt;B </description>
+    </item>
+    
+    <item>
+      <title>01 示例</title>
+      <link>https://www.sreplus.net/03_GoLang/01_quick_install/01_sample/</link>
+      <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
+      
+      <guid>https://www.sreplus.net/03_GoLang/01_quick_install/01_sample/</guid>
+      <description>example post    first post
+graph TD A --&amp;gt;B </description>
+    </item>
+    
+    <item>
+      <title>01 示例</title>
+      <link>https://www.sreplus.net/05_Monitoring/01_SysMonitoring/01_sample/</link>
+      <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
+      
+      <guid>https://www.sreplus.net/05_Monitoring/01_SysMonitoring/01_sample/</guid>
+      <description>example post    first post
+graph TD A --&amp;gt;B </description>
+    </item>
+    
+    <item>
+      <title>01 示例</title>
+      <link>https://www.sreplus.net/05_Monitoring/02_InfraMonitoring/01_sample/</link>
+      <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
+      
+      <guid>https://www.sreplus.net/05_Monitoring/02_InfraMonitoring/01_sample/</guid>
+      <description>example post    first post
+graph TD A --&amp;gt;B </description>
+    </item>
+    
+    <item>
+      <title>01 示例</title>
+      <link>https://www.sreplus.net/06_APM/01_skywalking/01_sample/</link>
+      <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
+      
+      <guid>https://www.sreplus.net/06_APM/01_skywalking/01_sample/</guid>
       <description>example post    first post
 graph TD A --&amp;gt;B </description>
     </item>
