@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SRE&#43;</title>
+    <title>Welcome to the documentation on SRE&#43;</title>
     <link>https://www.sreplus.net/</link>
-    <description>Recent content on SRE&#43;</description>
+    <description>Recent content in Welcome to the documentation on SRE&#43;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 31 May 2021 02:56:04 -0400</lastBuildDate><atom:link href="https://www.sreplus.net/index.xml" rel="self" type="application/rss+xml" />
