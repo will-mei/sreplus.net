@@ -19,6 +19,18 @@ graph TD A --&amp;gt; B </description>
     
     <item>
       <title>00 intro</title>
+      <link>https://www.sreplus.net/00_intro/</link>
+      <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
+      
+      <guid>https://www.sreplus.net/00_intro/</guid>
+      <description>https://www.redhat.com/en/topics/devops/what-is-sre
+What is SRE(site reliability engineering)?    Site reliability engineering is a software engineering approach to IT operations.
+SRE teams use software as a tool to manage systems, solve problems, and automate operations tasks.
+SRE takes the tasks that have historically been done by operations teams often manually, and instead gives them to engineers or ops teams who use software and automation to solve problems and production systems.</description>
+    </item>
+    
+    <item>
+      <title>00 intro</title>
       <link>https://www.sreplus.net/01_ShellScript/01_quick_install/00_intro/</link>
       <pubDate>Mon, 31 May 2021 02:51:07 -0400</pubDate>
       
