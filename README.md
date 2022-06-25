@@ -2,17 +2,15 @@
 
 www.sreplus.net / will-mei.github.io
 
-## Welcome to Iterdaily.com GitHub Pages
-
-upstream repository: git@git.iterdaily.com:will-mei/will-mei-github-io.git
+## Welcome to SRE+ doc GitHub Pages
 
 these pages were build with hugo
 
-![https://git.iterdaily.com/will-mei/will-mei-github-io](./content_structure.svg "content structure")
+![https://git.iterdaily.com/will-mei/sreplus.net](./content_structure.svg "content structure")
 
-markdown files stored at: `git@git.iterdaily.com:will-mei/hugo_blog.git`
+upstream repository: git@git.iterdaily.com:will-mei/sreplus.net
 
-settings at: [repository settings](https://github.com/will-mei/will-mei.github.io/settings).
+settings at: [repository settings](https://github.com/will-mei/sreplus.net/settings).
 
 content folder: /docs
 
