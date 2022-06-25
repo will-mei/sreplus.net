@@ -11,8 +11,10 @@
 
 
 
-    <meta name="description" content="Geekdoc is a simple Hugo theme for documentations. It is intentionally designed as a fast and lean theme and may not fit the requirements of complex projects. If a more feature-complete theme is required there are a lot of got alternatives out there.
-Getting Started   Content overview  Bash script  Bash script is always a easy and usefull tool to finish your work.">
+    <meta name="description" content="(Its a home page demo)
+What is SRE(site reliability engineering)?  Site reliability engineering is a software engineering approach to IT operations.
+SRE teams use software as a tool to manage systems, solve problems, and automate operations tasks.
+SRE takes the tasks that have historically been done by operations teams often manually, and instead gives them to engineers or ops teams who use software and automation to solve problems and production systems.">
 
 
 
@@ -122,8 +124,52 @@ Getting Started   Content overview  Bash script  Bash script is always a easy an
 <span class="badge-placeholder"><a class="gdoc-markdown__link--raw" href="https://github.com/thegeeklab/hugo-geekdoc/graphs/contributors"><img src="https://img.shields.io/github/contributors/thegeeklab/hugo-geekdoc" alt="GitHub contributors"  /></a></span>
 <span class="badge-placeholder"><a class="gdoc-markdown__link--raw" href="https://github.com/thegeeklab/hugo-geekdoc/blob/main/LICENSE"><img src="https://img.shields.io/github/license/thegeeklab/hugo-geekdoc" alt="License: MIT"  /></a></span></p>
 <!-- markdownlint-restore -->
-<p>Geekdoc is a simple Hugo theme for documentations. It is intentionally designed as a fast and lean theme and may not fit the requirements of complex projects.
-If a more feature-complete theme is required there are a lot of got alternatives out there.</p>
+<p>(Its a home page demo)</p>
+<div class="gdoc-columns flex flex-wrap">
+  
+  <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+    <div class="gdoc-page__anchorwrap">
+    <h2 id="what-is-sresite-reliability-engineering">
+        What is SRE(site reliability engineering)?
+    </h2>
+</div><p>Site reliability engineering is a software engineering approach to IT operations.</p>
+<p>SRE teams use software as a tool to manage systems, solve problems, and automate operations tasks.</p>
+<p>SRE takes the tasks that have historically been done by operations teams often manually, and instead gives them to engineers or ops teams
+who use software and automation to solve problems and production systems.</p>
+<p>SRE is a valuable practice when creating scalable and highly reliable software systems.
+It helps you manange large systems through code, which is more scalable and sustainable for sysadmins managing thousands or hundreds of thousands of machines.</p>
+<p>The concept of site reliability engineering comes from the Google engineering team and is credited to Ben Treynor Sloss.
+SRE helps teams find a balance between releasing new features and making sure that they are reliable for users.</p>
+<p>Standardization and automation are 2 important components of the SRE model. Site reliability engineers should always be looking for ways to enhance and automate operations tasks.
+In this way, SRE helps to improve the reliability of a system today, while also improving it as it grows over time.
+SRE supports teams who are moving from a traditional approach to IT operations to a cloud-native approach.</p>
+
+  </div>
+  
+  <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+    <div class="gdoc-page__anchorwrap">
+    <h2 id="what-does-a-site-reliability-engineer-do">
+        what does a site reliability engineer do?
+    </h2>
+</div><p>A site reliability engineer is a unique role that requires either a background as a software developer with additional operations experience, or as a sysadmin or in an IT operations role that also has software development skills.</p>
+<p>SRE teams are responsible for how code is deployed, configured, and monitored, as well as the availability, latency, change management, emergency response, and capacity management of services in production.</p>
+<p>Site reliability engineering helps teams to determine what new features can be launched and when by using service-level agreements (SLAs) to define the required reliability of the system through service-level indicators (SLI) and service-level objectives (SLO).</p>
+<p>An SLI is a defined measure of specific aspects of provided service levels. Key SLIs include request latency, availability, error rate, and system throughput. An SLO is based on the target value or range for a specified service level based on the SLI.</p>
+<p>An SLO for the required system reliability is then determined based on the downtime agreed upon as acceptable. This downtime level is referred to as an error budget, the maximum allowable threshold for errors and outages.</p>
+
+  </div>
+  
+</div>
+
+<p>With SRE, 100% reliability is not expected; failure is planned for and accepted.</p>
+<p>The development team is able to &ldquo;spend&rdquo; the error budget when releasing a new feature. Using the SLO and error budget, the development team can determine whether or not a product or service is able to launch based on the available error budget.
+If a service is running within the error budget, then the development team can launch whenever they want, but if the system currently has too many errors or goes down for longer than the error budget allows then no new launches can take place until the errors are within budget.</p>
+<p>The development team conducts automated operations tests to demonstrate reliability.</p>
+<p>Site reliability engineers split their time between operations tasks and project work. According to SRE best practices from Google, a site reliability engineer can only spend a maximum of 50% of their time on operations, which should be monitored to ensure they don’t go over.
+The rest of the time should be spent on development tasks like creating new features, scaling the system, and implementing automation.
+Excess operational work and poorly performing services can be redirected back to the dev team to run instead of the site reliability engineer spending too much time on the operations of an application or service.
+Automation is an important part of the site reliability engineer’s role. If they are dealing with a problem repeatedly then they will automate a solution. This also helps ensure that operations work remains at half of their workload.</p>
+<p>Maintaining the balance between operations and development work is a key component of SRE.</p>
 
 
 
@@ -153,7 +199,7 @@ If a more feature-complete theme is required there are a lot of got alternatives
     <h3 id="bash-script">
         Bash script
     </h3>
-</div><p>Bash script is always a easy and usefull tool to finish your work.
+</div><p>Bash script is always a usefull tool to finish your work, it is the most basic automation tool you should master.
   </div>
   
   <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
