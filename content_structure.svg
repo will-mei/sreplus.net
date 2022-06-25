@@ -165,7 +165,7 @@ content</div>
 <g transform="translate(-61.7109375,-9.5)">
 <foreignObject width="123.421875" height="19">
 <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
-theme: hugo-geekdoc</div>
+hugo-geekdoc</div>
 </foreignObject>
 </g>
 </g>
@@ -177,7 +177,7 @@ theme: hugo-geekdoc</div>
 <g transform="translate(-53.609375,-9.5)">
 <foreignObject width="107.21875" height="19">
 <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
-hugo public dir: docs/ </div>
+docs/ </div>
 </foreignObject>
 </g>
 </g>
@@ -189,7 +189,7 @@ hugo public dir: docs/ </div>
 <g transform="translate(-62.0546875,-9.5)">
 <foreignObject width="124.109375" height="19">
 <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">
-hugo site root dir: .
+content/
 </div>
 </foreignObject>
 </g>
