@@ -1,0 +1,30 @@
+# .gitlab-ci.yml定义阶段
+#default:
+#    image:
+#        name: gitlab-runner-executor:centos7
+#        entrypoint: ["-v /var/run/docker.sock:/var/run/docker.sock"]
+
+stages:
+    - prepare
+    - deploy
+
+# check submodule
+job1:
+    stage: prepare
+    tags:
+        - blog
+    script:
+        - echo update submodules, commit-sha $CI_COMMIT_BEFORE_SHA $CI_COMMIT_SHA
+        - git submodule sync
+        - test -f themes/hugo-geekdoc/theme.toml || git submodule update --init
+        - git submodule update --remote --merge
+
+#部署阶段
+job2:
+    stage: deploy
+    tags:
+        - blog
+    script:
+        - echo "build and update site content"
+        - rm -rf /home/web/sreplus/html/*
+        - hugo --noTimes --noChmod -b https://www.sreplus.com/ -d /home/web/sreplus/html/
