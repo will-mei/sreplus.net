@@ -1,7 +1,9 @@
 ## github page site
 
-(push -u old-origin) www.sreplus.net / will-mei.github.io
-(push -u     origin) www.sreplus.com / git.iterdaily.com 
+| upstream         | format          |release domain  | host server       |
+| ---------------- | --------------- |--------------- | ----------------- |
+|push -u old-origin| /docs/(html)    |www.sreplus.net | will-mei.github.io|
+|push -u     origin| auto build html |www.sreplus.com | git.iterdaily.com |
 
 ## Welcome to SRE+ doc GitHub Pages
 
