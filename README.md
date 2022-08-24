@@ -1,6 +1,7 @@
 ## github page site
 
-www.sreplus.net / will-mei.github.io
+(push -u old-origin) www.sreplus.net / will-mei.github.io
+(push -u     origin) www.sreplus.com / git.iterdaily.com 
 
 ## Welcome to SRE+ doc GitHub Pages
 
