@@ -1,4 +1,8 @@
-高可用部署
+---
+weight: 2
+---
+
+开发环境搭建
 
 <!-- spellchecker-disable -->
 

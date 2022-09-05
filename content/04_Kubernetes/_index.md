@@ -3,4 +3,8 @@ title: 04_Kubernetes
 geekdocCollapseSection: true
 ---
 
-[toc]
+<!-- spellchecker-disable -->
+
+{{< toc-tree >}}
+
+<!-- spellchecker-enable -->

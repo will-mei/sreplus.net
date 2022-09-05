@@ -1,5 +1,5 @@
 ---
-title: "服务高可用设计"
+title: "01 服务高可用设计"
 date: 2021-05-31T02:56:04-04:00
 draft: false
 usemermaid: true
@@ -20,6 +20,12 @@ K8S 高可用主要是两个层面的考虑:
 master 服务是无状态的, 所以扩增节点直接做负载均衡即可.
 
 数据库通常是有状态的, 因此需要遵照数据库的多集群设计独立配置高可用.
+
+
+
+### 整体节点拓扑结构图
+
+![Kubernetes-HA.drawio](Kubernetes-HA.drawio.svg)
 
 
 
