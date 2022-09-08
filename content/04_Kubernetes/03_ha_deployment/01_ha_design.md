@@ -112,39 +112,29 @@ flowchart LR
 因为 ETCD 数据库和 API-server 的压力并不是对等的, 对于更大的 K8S 集群可用独立的 ETCD 集群, 分别按需进行扩容维护, 以应对更大的压力.
 
 ```mermaid
-flowchart TD
+flowchart LR
     subgraph master1
-        subgraph service1
-            a1([api server])
-            c1(controller-mgr)
-            s1(scheduler)
-        end
+        a1([api server])
+        c1(controller-mgr)
+        s1(scheduler)
     end
     subgraph master2
-        subgraph service2
-            a2([api server])
-            c2(controller-mgr)
-            s2(scheduler)
-        end
+        a2([api server])
+        c2(controller-mgr)
+        s2(scheduler)
     end
     subgraph master3
-        subgraph service3
-            a3([api server])
-            c3(controller-mgr)
-            s3(scheduler)
-        end
+        a3([api server])
+        c3(controller-mgr)
+        s3(scheduler)
     end
     LB ---> master1 & master2 & master3
     subgraph db-cluster
-        subgraph node1
-        	d1[(etcd)]:::dbclass
-        end
-        subgraph node2
-        	d2[(etcd)]:::dbclass
-        end
-        subgraph node3
-            d3[(etcd)]:::dbclass
-        end
+        	d1[(node1)]:::dbclass
+        	d2[(node2)]:::dbclass
+            d3[(node3)]:::dbclass
+        d1 <-.-> d2
+        d2 <-.-> d3
     end
     master1 & master2 & master3 --- db-cluster
     classDef dbclass fill:#f96;
@@ -216,5 +206,4 @@ flowchart TD
    1. 创建pod并启动容器测试访问
 
    2. 测试服务网络通信
-
 
