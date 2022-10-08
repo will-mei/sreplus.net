@@ -198,4 +198,6 @@ haproxy     [kubernetes的api-server高可用配置_激情燃烧的岁月的技�
 
 [3.7. Turning on Packet Forwarding and Nonlocal Binding Red Hat Enterprise Linux 7 | Red Hat Customer Portal](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/load_balancer_administration/s1-initial-setup-forwarding-vsa#:~:text=Load%20balancing%20in%20HAProxy%20and%20Keepalived%20at%20the,an%20IP%20that%20is%20not%20local%20for%20failover.)
 
-> 非生产环境中, 如果只需要高可用而不在乎负载均衡也可以只安装 keepalived.
+> 资源不足时, 也可以只配置 HA 省去负载均衡, 将 keeplived 安装到 master 节点, 可使用更少的节点完成部署.
+>
+> 注意初始化时指定节点的 `--apiserver-advertise-address` 参数.
