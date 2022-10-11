@@ -1,4 +1,4 @@
-Platform / Middleware & Service Monitoring
+Service & Applications Monitoring
 
 <!-- spellchecker-disable -->
 
