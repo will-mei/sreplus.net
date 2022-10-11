@@ -1,4 +1,6 @@
-Platform / Middleware & Service Monitoring
+---
+weight: 1
+---
 
 <!-- spellchecker-disable -->
 

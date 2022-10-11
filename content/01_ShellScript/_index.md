@@ -3,4 +3,9 @@ title: 01_ShellScript
 geekdocCollapseSection: true
 ---
 
-toc
+<!-- spellchecker-disable -->
+
+{{< toc-tree >}}
+
+<!-- spellchecker-enable -->
+

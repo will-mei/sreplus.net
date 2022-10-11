@@ -1,3 +1,6 @@
+---
+weight: 1
+---
 Logs
 
 <!-- spellchecker-disable -->
