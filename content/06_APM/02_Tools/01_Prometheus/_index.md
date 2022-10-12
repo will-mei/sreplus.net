@@ -1,8 +1,4 @@
----
-weight: 4
----
-
-Tools
+Prometheus
 
 <!-- spellchecker-disable -->
 

@@ -2,7 +2,7 @@
 weight: 3
 ---
 
-Metrics
+Infrastructure & OS Resources Monitoring
 
 <!-- spellchecker-disable -->
 

@@ -1,8 +1,8 @@
 ---
-weight: 2
+weight: 1
 ---
 
-Traces
+Getting started
 
 <!-- spellchecker-disable -->
 

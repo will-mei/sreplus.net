@@ -1,12 +1,11 @@
 ---
-weight: 2
+weight: 5
 ---
 
-Platform / Middleware
+Service & Applications Monitoring
 
 <!-- spellchecker-disable -->
 
 {{< toc-tree >}}
 
 <!-- spellchecker-enable -->
-
