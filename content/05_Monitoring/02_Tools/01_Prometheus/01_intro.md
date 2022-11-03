@@ -10,7 +10,7 @@ draft: false
 如图所示
 
 
-![img](01_intro/16027237814690.jpg)
+![img](./16027237814690.jpg)
 
 - prometheus 服务器， 监控数据处理核心， 控制获取， 存储， 查询
 - Exporter 数据源， 通过 pull/push 将数据传输到 服务器
