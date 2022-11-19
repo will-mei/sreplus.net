@@ -162,6 +162,16 @@ docker restart mon1
 
 
 
+## 查看被监控主机
+
+登录服务端 web 地址, 如 `http://localhost:9090` 
+
+点击 Status 菜单, 选择 Targets, 即可查看被监控节点
+
+在搜索框输入关键字, 例如 IP 地址即可过滤和搜索节点
+
+
+
 <br>
 
 ## 查询监控数据
