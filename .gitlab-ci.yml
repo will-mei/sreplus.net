@@ -26,5 +26,5 @@ job2:
         - blog
     script:
         - echo "build and update site content"
-        - rm -rf /home/web/sreplus/html/*
-        - hugo --noTimes --noChmod -b https://www.sreplus.com/ -d /home/web/sreplus/html/
+        - rm -rf /var/www/html/sreplus/www/html/*
+        - hugo --noTimes --noChmod -b https://www.sreplus.com/ -d /var/www/html/sreplus/www/html/
