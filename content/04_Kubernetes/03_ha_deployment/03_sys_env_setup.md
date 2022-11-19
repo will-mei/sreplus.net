@@ -42,10 +42,13 @@ setenforce 0
 sed -i 's/^SELINUX=enforcing$/SELINUX=disabled/' /etc/selinux/config
 
 
+# yum -y install bash-completion conntrack jq nfs-common ceph-common rsync socat
 
 ## ipvs install
 yum -y install ipvsadm ipset
 
+# 内核模块加载
+#cat > /etc/smodules-load.d/ipvs.modules <<EOF
 cat > /etc/sysconfig/modules/ipvs.modules <<EOF
 #!/bin/bash
 modprobe -- ip_vs
@@ -58,30 +61,52 @@ EOF
 
 chmod 755 /etc/sysconfig/modules/ipvs.modules
 bash /etc/sysconfig/modules/ipvs.modules
+
 lsmod | grep -e ip_vs -e nf_conntrack_ipv4
 lsmod | grep br_netfilter || modprobe br_netfilter
 
 
 ## net settings for k8s
 cat <<EOF >  /etc/sysctl.d/k8s.conf
-net.bridge.bridge-nf-call-ip6tables = 1
-net.bridge.bridge-nf-call-iptables = 1
 net.ipv4.ip_forward = 1
+net.bridge.bridge-nf-call-iptables = 1
+net.bridge.bridge-nf-call-ip6tables = 1
+net.bridge.bridge-nf-call-arptables = 1
+net.ipv4.tcp_tw_reuse = 0
+net.core.somaxconn = 32768
+net.netfilter.nf_conntrack_max = 1000000
+vm.swappiness = 0
+vm.max_map_count = 655360
+fs.file-max = 6553600
+net.ipv4.tcp_keepalive_time = 600
+net.ipv4.tcp_keepalive_intvl = 30
+net.ipv4.tcp_keepalive_probes = 10
 EOF
 
+
+#sysctl -p /etc/sysctl.d/k8s.conf
 sysctl --system
-
-
 
 ##swap off
 swapoff -a
 sed -i "/swap/s/^/#/" /etc/fstab
 #sed -i 's?^/dev/mapper/centos-swap*?#&?' /etc/fstab
 
-grep -no 'vm.swappiness=0' /etc/sysctl.d/k8s.conf || echo "vm.swappiness=0" >> /etc/sysctl.d/k8s.conf
 
-sysctl -p /etc/sysctl.d/k8s.conf
-
+# limits 资源限制
+# vim /etc/security/limits.conf
+cat >> /etc/security/limits.conf <<EOF
+root        soft    core        ulimited
+root        hard    core        ulimited
+root        soft    nproc       1000000
+root        hard    nproc       1000000
+root        soft    nofile      1000000
+root        hard    nofile      1000000
+root        soft    memlock     32000
+root        hard    memlock     32000
+root        soft    msgqueue    8192000
+root        hard    msgqueue    8192000
+EOF
 
 
 ## check init
@@ -105,3 +130,4 @@ cat /etc/sysctl.d/k8s.conf
 
 ```
 
+重启服务器, 检查配置生效状况.
