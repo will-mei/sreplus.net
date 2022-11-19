@@ -18,6 +18,20 @@ disablePathToLower = true
   [markup.tableOfContents]
     startLevel = 1
     endLevel = 9
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'algol'
+    tabWidth = 4
 [minify]
   disableHTML = true
-
+[blackfriday]
+  extensions = ["hardLineBreak"]
