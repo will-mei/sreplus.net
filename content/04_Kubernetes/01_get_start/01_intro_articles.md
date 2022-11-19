@@ -71,20 +71,20 @@ graph LR
     kubelet --- cri-o --- OCI
 ```
 
-docker 方案 1 (1.20 前)
+docker 原有方案 (1.20 前) docker-shim 由 K8S 项目维护
 
 ```mermaid
 graph LR
-kubelet --- docker-shim --- dockerd --- OCI
+kubelet --- docker-shim --- dockerd --- containerd --- OCI
 ```
 
 
 
-docker 方案 2 (1.20 后)
+docker 延续方案 (1.20 后) cri-dockerd 接替 docker-shim 但由 cri-dockerd 项目维护
 
 ```mermaid
 graph LR
-kubelet --- cri-dockerd --- dockerd --- OCI
+kubelet --- cri-dockerd --- dockerd --- containerd --- OCI
 ```
 
 
