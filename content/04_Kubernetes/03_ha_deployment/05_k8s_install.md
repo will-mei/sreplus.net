@@ -1,6 +1,7 @@
 ---
-title: "04_k8s_install"
-date: 2022-09-08T16:28:58+08:00
+weight: 5
+title: "04 k8s 初始化"
+date: 2022-11-08T16:28:58+08:00
 draft: false
 ---
 
