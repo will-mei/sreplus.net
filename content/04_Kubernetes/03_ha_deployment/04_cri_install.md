@@ -1,6 +1,6 @@
 ---
 weight: 4
-title: "03 CRI 安装"
+title: "04 CRI 安装"
 date: 2022-09-08T16:23:50+08:00
 draft: false
 ---

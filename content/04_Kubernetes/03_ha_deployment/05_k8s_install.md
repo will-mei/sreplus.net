@@ -1,7 +1,7 @@
 ---
 weight: 5
-title: "04 k8s 初始化"
-date: 2022-11-08T16:28:58+08:00
+title: "05 k8s 初始化"
+date: 2022-11-20T16:28:58+08:00
 draft: false
 ---
 
@@ -225,14 +225,28 @@ kubeadm init --config kubeadm-init.yaml
 Your Kubernetes control-plane has initialized successfully!
 
 To start using your cluster, you need to run the following as a regular user:
-
-  mkdir -p $HOME/.kube
-  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+	mkdir -p $HOME/.kube
+	sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+	sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 Alternatively, if you are the root user, you can run:
-                                                                                                                                                                                        export KUBECONFIG=/etc/kubernetes/admin.conf                                                                                                                                                                                                                                                                                                                              You should now deploy a pod network to the cluster.                                                                                                                                   Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:                                                                                                             https://kubernetes.io/docs/concepts/cluster-administration/addons/                                                                                                                                                                                                                                                                                                        You can now join any number of control-plane nodes by copying certificate authorities                                                                                                 and service account keys on each node and then running the following as root:
-                                                                                                                                                                                        kubeadm join 192.168.129.3:6443 --token c0eb6t.4r67ceebwspvckdl \                                                                                                                           --discovery-token-ca-cert-hash sha256:52bec8a9ba3eda56d2065112b7cfea1bfe011e077d3cf324e6df8c6e636714e1 \                                                                              --control-plane                                                                                                                                                                                                                                                                                                                                                     Then you can join any number of worker nodes by running the following on each as root:                                                                                                                                                                                                                                                                                      kubeadm join 192.168.129.3:6443 --token c0eb6t.4r67ceebwspvckdl \                                                                                                                             --discovery-token-ca-cert-hash sha256:52bec8a9ba3eda56d2065112b7cfea1bfe011e077d3cf324e6df8c6e636714e1
+  export KUBECONFIG=/etc/kubernetes/admin.conf
+
+You should now deploy a pod network to the cluster.
+Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
+  https://kubernetes.io/docs/concepts/cluster-administration/addons/
+
+You can now join any number of control-plane nodes by copying certificate authorities
+and service account keys on each node and then running the following as root:
+
+  kubeadm join 192.168.129.3:6443 --token c0eb6t.4r67ceebwspvckdl \
+        --discovery-token-ca-cert-hash sha256:52bec8a9ba3eda56d2065112b7cfea1bfe011e077d3cf324e6df8c6e636714e1 \
+        --control-plane
+
+Then you can join any number of worker nodes by running the following on each as root:
+
+kubeadm join 192.168.129.3:6443 --token c0eb6t.4r67ceebwspvckdl \
+        --discovery-token-ca-cert-hash sha256:52bec8a9ba3eda56d2065112b7cfea1bfe011e077d3cf324e6df8c6e636714e1
 ```
 
 
