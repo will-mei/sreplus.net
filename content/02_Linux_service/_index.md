@@ -1,13 +1,10 @@
 ---
-title: 06_APM
+title: 02 Linux OS & service
 geekdocCollapseSection: true
 ---
-
-Application Performance Monitoring
 
 <!-- spellchecker-disable -->
 
 {{< toc-tree >}}
 
 <!-- spellchecker-enable -->
-

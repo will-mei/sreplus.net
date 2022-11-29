@@ -38,7 +38,7 @@ Maintaining the balance between operations and development work is a key compone
 
 {{< /columns >}}
 
-{{< button size="large" relref="01_ShellScript/" >}}Getting Started{{< /button >}}
+{{< button size="large" relref="03_Language_skills/01_Shell_Script/" >}}Getting Started{{< /button >}}
 
 ## Content overview
 
